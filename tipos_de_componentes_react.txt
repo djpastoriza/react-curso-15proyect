@@ -1,0 +1,13 @@
+Funtional component:
+-----------------------------------------------------
+se utiliza para alguna funcionalidad rapida y especifica debido a que es mas facil de leer, probar y crear.
+pero:
+-no pueden utiliezar metodos de ciclos de vida (ComponentDidMount,ComponentDidUpdate)
+-no tienen state, solo cuando se utilizan hocks se pueden utilizar
+-no puedes usar sus refs
+-no puede usar la palabra this
+
+
+cuando necesites utilizar alguna de estas funcionalidades utilizar:
+(Class component)
+

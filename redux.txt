@@ -1,0 +1,30 @@
+REDUX
+----------------
+te ayuda a manejar los datos conforme a las acciones realizadas por el usuario.
+--------------------
+- Solo se tiene un state principal ( Store ).
+
+- El state cambia de acuerdo a lo que sucede en la interfaz del usuario.
+
+- Solo ciertas funciones cambian el state.
+
+- El usuario es el que utiliza estas funciones y cambia el state
+
+- Solo se debe realizar un cambia a la vez.
+
+--------------------
+
+STORE ---> contiene el state (1 por app)
+DISPATCH ---> ejecuta una accion que actualiza el state
+ACTION -----> Objetos js tienen un tipo y payload(datos)
+SUBSCRIBE ---> similar a event listener para el state
+REDUCERS -----> Funciones que saben que hacer con las acciones y el payload
+
+
+
+--------------------
+
+* ¿Cuando utilizar Redux?
+
+- Si tu proyecto es grande y sera mantenido por varias personas, redux sera de gran ayuda.
+

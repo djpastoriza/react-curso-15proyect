@@ -1,0 +1,13 @@
+SSR (server side rendering) :
+
+El servidor se encarga de generar el html
+
+beneficios:
+-carga mas rapida
+-no varia la computadora
+-se recomienda para aplicaciones grandes
+-mejora el seo
+
+
+SCR ( server client rendering )
+

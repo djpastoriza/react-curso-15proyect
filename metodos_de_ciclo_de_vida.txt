@@ -1,0 +1,22 @@
+Metodos del ciclo de vida:
+
+- se actualizan automaticamente.
+
+- solo existen en el class component.
+
+- son eventos que ocurren desde que se crea hasta que se destruye el componente.
+
+
+(ComponentDidMount):
+-cuando el componente esta listo. Hacer algo cuando se cargue
+
+(ComponentWillMount):
+-componente aun no esta listo. Hacer algo antes que se cargue
+
+(ComponentDidUpdate):
+-componente sufrio algun cambio. Hacer algo cuando haya un cambio en el componente.
+
+(ComponentWillUnMount):
+-nuevo componente fue cargado y sera reemplazado (removido). Hacer algo antes de que pase.
+
+

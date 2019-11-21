@@ -1,0 +1,41 @@
+https://my-json-server.typicode.com/
+
+https://github.com/typicode/json-server
+
+1)
+instalarlo: 
+-en consola-
+npm install -g json-server
+
+2)
+crear un archivo .json en tu app - ejemplo: "db.json"
+
+{
+    "restaurant" : [
+        {
+            "precioPlatillo": "200",
+            "nombrePlatillo": "Cheesecake",
+            "categoria" : "postres",
+            "id": 1
+        },
+        {
+            "precioPlatillo": "300",
+            "nombrePlatillo": "Rib Eye 400g",
+            "categoria" : "cortes",
+            "id": 2
+        }
+    ]
+}
+
+
+3)
+Agarrar ese archivo y marcarlo con json-server en algun puerto que no se este utilizando:
+
+-en consola-
+json-server db.json -p 4000
+
+
+
+
+
+

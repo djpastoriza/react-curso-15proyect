@@ -1,0 +1,15 @@
+es un estandar cuyo fin es permitir compartir informacion entre distintas app en un objeto JSON
+
+cuando se utiliza:
+-Para verificar si el usuario tiene autorización de acceder a una parte del sitio.
+
+-intercambio de informacion de un servidor a otro de forma segura
+
+
+partes de JWT:
+
+header : tipo de jwt y algoritmo.
+
+payload : informacion de la entidad y datos adicionales.
+
+signature: verifica que el transporte no a cambiado su transporte.
